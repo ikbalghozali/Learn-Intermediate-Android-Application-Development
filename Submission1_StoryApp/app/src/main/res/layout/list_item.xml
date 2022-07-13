@@ -1,0 +1,70 @@
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/image_view_story"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/avatar"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintTop_toBottomOf="@id/image_view_story"
+            app:layout_constraintEnd_toEndOf="@id/image_view_story"
+            app:layout_constraintStart_toStartOf="@+id/image_view_story"
+            tools:text="@string/username" />
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="?android:attr/textColorSecondary"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_name"
+            tools:text="@string/description" />
+        <TextView
+            android:id="@+id/text_view_created_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="?android:attr/textColorSecondary"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:layout_marginEnd="10dp"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_description"
+            tools:text="@string/createdAdd" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

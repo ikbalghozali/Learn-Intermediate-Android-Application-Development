@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="avatar">Avatar</string>
+    <string name="username">Username</string>
+    <string name="description">Description</string>
+    <string name="createdAdd">Created at %1$s,</string>
+    <string name="continue_">Continue</string>
+    <string name="greeting">Hi %1$s,</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="no_story">no story</string>
+    <string name="login">Login</string>
+    <string name="no_account">Did\'t Have Account?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="fill_correctly">Fill It Correctly</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="have_account">Have account?</string>
+    <string name="welcome">Welcome,</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+    <string name="post_story">Post Story</string>
+    <string name="permission">can\'t get permission</string>
+    <string name="no_attached">No file attached, please attach image first</string>
+    <string name="upload_success">Upload Success</string>
+    <string name="upload_failed">Upload Failed</string>
+    <string name="signin_success">Sign In Success</string>
+    <string name="signin_failed">"Sign In Failed, "</string>
+    <string name="signup_success">Sign Up Success</string>
+    <string name="signup_failed">"Sign Up Failed, "</string>
+    <string name="wrong_email">Not a valid email</string>
+    <string name="must_fill">Must be filled</string>
+    <string name="wrong_password">password must be at least 6 characters</string>
+    <string name="capture_image" translatable="false">Capture Image</string>
+    <string name="switch_camera" translatable="false">Switch Camera</string>
+    <string name="image_story" translatable="false">image story</string>
+    <string name="story_app_logo" translatable="false">StoryApp Logo</string>
+    <string name="picture_logo" translatable="false">picture_logo</string>
+    <string name="bg_header" translatable="false">bg_header</string>
+    <string name="post_story_activity" translatable="false">Post Story</string>
+    <string name="story_detail_activity" translatable="false">Story Detail</string>
+</resources>

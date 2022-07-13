@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="avatar">Avatar</string>
+    <string name="username">Username</string>
+    <string name="description">Description</string>
+    <string name="createdAdd">Dibuat Pada %1$s,</string>
+    <string name="continue_">Selanjutnya</string>
+    <string name="greeting">Hi %1$s,</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="no_story">Story Tidak Ditemukan</string>
+    <string name="login">Masuk</string>
+    <string name="no_account">Tidak Memiliki Akun?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Masuk</string>
+    <string name="fill_correctly">Isi Dengan Benar</string>
+    <string name="sign_up">Daftar</string>
+    <string name="name">Name</string>
+    <string name="register">Registrasi</string>
+    <string name="have_account">Memiliki Akun?</string>
+    <string name="welcome">Selamat Datang,</string>
+    <string name="language">Bahasa</string>
+    <string name="logout">Keluar</string>
+    <string name="post_story">Post Story</string>
+    <string name="permission">Tidak Dapatkan Ijin</string>
+    <string name="no_attached">Tidak ada file terlampir, harap lampirkan gambar terlebih dahulu</string>
+    <string name="upload_success">Mengunggah Berhasil</string>
+    <string name="upload_failed">Mengunggah Gagal</string>
+    <string name="signin_success">Masuk Berhasil</string>
+    <string name="signin_failed">"Gagal Masuk, "</string>
+    <string name="signup_success">Registrasi Berhasil</string>
+    <string name="signup_failed">"Registrasi Gagal, "</string>
+    <string name="wrong_email">Email Tidak Valid</string>
+    <string name="must_fill">Harus Diisi</string>
+    <string name="wrong_password">Password harus setidaknya 6 huruf</string>
+</resources>
